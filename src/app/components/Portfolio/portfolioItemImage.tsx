@@ -6,10 +6,11 @@ import { Resize } from "@cloudinary/url-gen/actions";
 
 type PortfolioItemImageProps = {
   imageUrl: string;
+  alt: string;
 };
 
-export function PortfolioItemImage({ imageUrl }: PortfolioItemImageProps) {
+export function PortfolioItemImage({ imageUrl, alt }: PortfolioItemImageProps) {
   const imgae = myCld.image(imageUrl).resize(Resize.scale().height(180));
 
-  return <AdvancedImage cldImg={imgae} />;
+  return <AdvancedImage cldImg={imgae} alt={alt} />;
 }

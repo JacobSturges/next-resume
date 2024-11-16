@@ -19,7 +19,7 @@ export function Experince() {
           title="Senior software engineer"
           logo="/web-resume/pxyz"
           timeline="Dec 2020 - Aug 2024"
-          description="While working at PlaygroundXYZ I made considerable contributions to the development and maintenance of the AIP product. During this time, I have worked across several products, expanding my skill set demonstrating a prominent level of agility and reaching the level of proficiency necessary to achieve the role of senior software engineer."
+          description="At Playground XYZ, I achieved a high level of proficiency as a developer, earning the title of Senior Software Engineer. This role marked the first time I took full ownership of entire projects, most notably the AIP Measurement Portal. I also collaborated closely with other developers on initiatives such as the AIP Vision Project, which allowed me to expand my expertise into mobile development. My work primarily involved technologies like React, GraphQL, and Kotlin."
         />
         <ExperienceItem
           name="Are Media (Formally Bauer)"
@@ -27,7 +27,7 @@ export function Experince() {
           title="Javascript developer"
           logo="/web-resume/are-media"
           timeline="May 2019 - Dec 2020"
-          description="While employed at Are Media I worked primarily in ReactJS. My time at this company played a critical role in developing my Frontend skills as the tech team was limited and thus a large amount of personal responsibility was placed on each developer to function effectively and efficiently while working independently. While at Are Media I was able to hone my skills in writing clean code that efficiently conveys the intent."
+          description="During my time at Are Media, I advanced my skills as a developer, taking on larger projects and working more independently. This role marked a significant step in my growth as a frontend developer, as I began working with React and TypeScript for the first time. Notably, I contributed to the expansion and maintenance of the company’s various brand mastheads, including prominent Australian brands such as Women’s Weekly, Better Homes and Gardens and Now to Love."
         />
         <ExperienceItem
           name="News Corp Australia"
@@ -35,7 +35,7 @@ export function Experince() {
           title="Junior developer"
           logo="/web-resume/newscorp"
           timeline="Feb 2017 - May 2019"
-          description="I began at News Corp as an intern, eventually earning my way into a full-time role. It was here that I learned the fundamental skills required to be an effective developer and contribute to the overall goals of a team. While there, I was offered the chance to work with a variety of technologies and found that I particularly enjoyed JavaScript/Node.js."
+          description="I started my journey at News Corp as an intern through the UNSW Co-op Internship Program, which led to a full-time position. During my time there, I developed fundamental skills as a developer, learned to contribute effectively to team efforts, and successfully delivered several major projects. My experience included working extensively with JavaScript and Node.js, with a highlight being my contributions to the development of NewsConnect 2.0."
         />
         <ExperienceItem
           name="UNSW"

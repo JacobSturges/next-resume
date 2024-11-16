@@ -8,6 +8,7 @@ type PortfolioItemProps = {
   title: string;
   text: string;
   image: string;
+  imageAlt: string;
   link: string;
 };
 
@@ -16,6 +17,7 @@ export function PortfolioItem({
   text,
   link,
   image,
+  imageAlt,
 }: PortfolioItemProps) {
   return (
     <Link
@@ -30,8 +32,8 @@ export function PortfolioItem({
         {title}
       </Heading>
       <Text variant="regular">{text}</Text>
-      <div>
-        <PortfolioItemImage imageUrl={image} />
+      <div className="mt-auto">
+        <PortfolioItemImage imageUrl={image} alt={imageAlt} />
       </div>
     </Link>
   );
