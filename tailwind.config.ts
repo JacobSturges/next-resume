@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        landing:
+          "url('https://res.cloudinary.com/jacob-sturges/image/upload/f_auto/v1539734430/web-resume/museum.jpg')",
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        black: "var(--black)",
       },
     },
   },
