@@ -6,30 +6,37 @@ export function Skills() {
     <Section id="skills" title="Skills">
       <div className="flex justify-evenly flex-wrap gap-10">
         <Skill
-          name="ReactJS"
-          text="The front-end web framework I am most experienced in is React. I have built and maintained numerous web apps in this framework."
+          name="ReactJS/NextJS"
+          text="Proficient in building modern web applications with ReactJS, leveraging component-driven architecture and hooks for dynamic interfaces. Skilled in NextJS for server-side rendering, and optimized routing for performant and SEO-friendly applications."
           icon={["fab", "react"]}
         />
+
+        <Skill
+          name="NodeJS"
+          text="Experienced in backend development using NodeJS, creating scalable and efficient RESTful APIs, handling asynchronous workflows, and integrating with databases. Familiar with frameworks like Express.js, GraphQL and ApolloJS."
+          icon={["fab", "node-js"]}
+        />
+
+        <Skill
+          name="React Native"
+          text="Adept at developing cross-platform mobile applications using React Native, with a focus on responsive designs, seamless navigation, and integration of native modules for enhanced performance on iOS and Android devices."
+          icon={["fab", "react"]}
+        />
+
         <Skill
           name="Typescript"
-          text="Typescript is an iteration of JavaScript that allows for typing. This language is extremely flexible and can be used to solve just about any software problem. I am most proficient in this language as well as plain JavaScript."
+          text="Expertise in using TypeScript for static typing in JavaScript applications, ensuring code scalability and reducing runtime errors with interfaces, generics, and advanced type features."
           icon={["fab", "js"]}
         />
         <Skill
           name="Database's"
-          text="While undertaking my degree in Computer Science, I majored in Database systems. My high degree of competence with this technology has proven an asset many times during my professional career. I am experienced with both relational and non-relational databases."
+          text="Experience with relational databases (PostgreSQL, MySQL) and NoSQL databases (MongoDB, Firebase), optimizing queries and designing schemas for scalable data management."
           icon={["fas", "database"]}
         />
 
         <Skill
-          name="Kotlin"
-          text="I have spent the last couple of years working on an Android app for Playground XYZ and have thus developed strong skills in Kotlin Android development."
-          icon={["fab", "android"]}
-        />
-
-        <Skill
           name="Python"
-          text="For many years, I have enjoyed working in Python. In particular, I have used it for several personal data/analytics projects. The power and ease of use make this language the perfect tool for data-focused projects."
+          text="Adept in Python for scripting, data manipulation, and backend services, including web frameworks like Flask or Django for robust application development."
           icon={["fab", "python"]}
         />
       </div>

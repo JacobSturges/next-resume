@@ -6,12 +6,20 @@ export function Experince() {
     <Section id="experience" title="Experince">
       <div className="flex flex-col gap-16">
         <ExperienceItem
+          name="Frank Energie"
+          link="https://www.frankenergie.nl/nl"
+          title="Senior software engineer"
+          logo="/web-resume/frank-energie"
+          timeline="Aug 2024 - Present"
+          description="During my time at Frank Energie, I made significant contributions to both the website and mobile app. I resolved numerous technical issues and played a key role in leading the rework and redesign of the sign-up flow, enhancing both functionality and user experience."
+        />
+        <ExperienceItem
           name="PlaygroundXYZ / Gum Gum inc"
           link="https://playgroundxyz.com/"
           title="Senior software engineer"
           logo="/web-resume/pxyz"
-          timeline="Dec 2020 - present"
-          description="While working at PlaygroundXYZ I have made considerable contributions to the development and maintenance of the AIP product. During this time, I have worked across several products, expanding my skill set demonstrating a prominent level of agility and reaching the level of proficiency necessary to achieve the role of senior software engineer."
+          timeline="Dec 2020 - Aug 2024"
+          description="While working at PlaygroundXYZ I made considerable contributions to the development and maintenance of the AIP product. During this time, I have worked across several products, expanding my skill set demonstrating a prominent level of agility and reaching the level of proficiency necessary to achieve the role of senior software engineer."
         />
         <ExperienceItem
           name="Are Media (Formally Bauer)"

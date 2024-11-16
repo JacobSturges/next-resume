@@ -25,7 +25,7 @@ export function Portfolio() {
         <PortfolioItem
           title="This Site"
           link="https://github.com/JacobSturges/react-resume"
-          text="This site was designed and completed by myself in my spare time. It was built in ReactJS and uses the Fluent UI UX framework."
+          text="This site was designed and completed by myself in my spare time. It was built in NextJS and hosted using vercel."
           image="web-resume/web-resume"
         />
         <PortfolioItem
