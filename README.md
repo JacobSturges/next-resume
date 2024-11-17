@@ -16,4 +16,16 @@ pnpm dev
 bun dev
 ```
 
+## Linting
+
+```bash
+npm run lint
+# or
+yarn lint
+# or
+pnpm lint
+# or
+bun lint
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
