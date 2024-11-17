@@ -7,7 +7,7 @@ export function Skills() {
       <div className="flex justify-evenly flex-wrap gap-10">
         <Skill
           name="ReactJS/NextJS"
-          text="Proficient in building modern web applications with ReactJS, leveraging component-driven architecture and hooks for dynamic interfaces. Skilled in NextJS for server-side rendering, and optimized routing for performant and SEO-friendly applications."
+          text="Expertise in building modern web applications with ReactJS, leveraging component-driven architecture and hooks for dynamic interfaces. Skilled in NextJS for server-side rendering, and optimized routing for performant and SEO-friendly applications."
           icon={["fab", "react"]}
         />
 
@@ -36,7 +36,7 @@ export function Skills() {
 
         <Skill
           name="Python"
-          text="Adept in Python for scripting, data manipulation, and backend services, including web frameworks like Flask or Django for robust application development."
+          text="Adept in Python for scripting, data manipulation, and backend services, including web frameworks like Flask for robust application development."
           icon={["fab", "python"]}
         />
       </div>

@@ -8,7 +8,7 @@ export function Portfolio() {
           title="Frank Energie main site"
           link="https://www.frankenergie.nl/nl"
           text="The main customer web page for Frank Energie serves as a clean and efficient source of information for users while hosting the primary sign-up flow. During my time at Frank, I have worked diligently to maintain the website's code at a high standard of quality. Additionally, I have expanded its functionality, notably leading a major rework of the sign-up flow and contributing significantly to preparing the site for its launch in Spain. The website is built using Next.js for the frontend and GraphQL for the backend."
-          image="web-resume/frank-website"
+          image="web-resume/frank-web"
           imageAlt="screenshot of frank website"
         />
         <PortfolioItem
@@ -42,7 +42,7 @@ export function Portfolio() {
         <PortfolioItem
           title="This Site"
           link="https://github.com/JacobSturges/react-resume"
-          text="I designed and developed this site independently in my spare time. It was built using Next.js and is hosted on Vercel."
+          text="I independently designed and developed this website as a personal project during my spare time. Built with Next.js and hosted on Vercel, it showcases my skills in modern web development and design."
           image="web-resume/web-resume"
           imageAlt="this website"
         />
