@@ -5,39 +5,46 @@ export function Portfolio() {
     <Section id="portfolio" title="Portfolio">
       <div className="flex justify-evenly flex-wrap gap-10">
         <PortfolioItem
+          title="Frank Energie main site"
+          link="https://www.frankenergie.nl/nl"
+          text="The main customer web page for Frank Energie serves as a clean and efficient source of information for users while hosting the primary sign-up flow. During my time at Frank, I have worked diligently to maintain the website's code at a high standard of quality. Additionally, I have expanded its functionality, notably leading a major rework of the sign-up flow and contributing significantly to preparing the site for its launch in Spain. The website is built using Next.js for the frontend and GraphQL for the backend."
+          image="web-resume/frank-website"
+          imageAlt="screenshot of frank website"
+        />
+        <PortfolioItem
+          title="Frank Energie app"
+          link="https://play.google.com/store/apps/details?id=com.frankenergie.frank&hl=nl"
+          text="The Frank Energie app is the primary platform for existing customers to access essential features related to their service. Maintaining and expanding this app is one of my key responsibilities at Frank Energie. I have made numerous high-quality contributions, most notably implementing the inbox feature. The app is built using React Native with a GraphQL backend."
+          image="web-resume/frank-app"
+          imageAlt="the frank app logo"
+        />
+        <PortfolioItem
           title="AIP Vision project"
           link="https://play.google.com/store/apps/details?id=com.playgroundxyz.vision_project&pcampaignid=web_share"
-          text="A product needed to be built for panellist users to be able to complete the in-app studies so that we could measure user attention. This product was built in Kotlin a technology I taught myself on the fly. The development team was very small, just me and my team lead, so there was a very high level of responsibility."
+          text="We needed to develop a product enabling panellist users to complete in-app studies, allowing us to measure user attention effectively. This product was built using Kotlin, a technology I quickly learned on the job. With a very small development team consisting of just myself and my team lead, I carried a high level of responsibility throughout the project."
           image="web-resume/aip-vision-project"
           imageAlt="aip vision project"
         />
         <PortfolioItem
           title="AIP Measuremeant portal"
           link="https://playgroundxyz.com/aip"
-          text="While working at PXYZ one of my responsibilities was the building and maintenance of the measurement portal. This is a portal where both internal and external users can build and manage their AIP campaigns. During my time working on this product, several major initiatives were undertaken to expand the functionality of this page, notably the implementation of analytics pages that significantly reduced the overhead for our campaign majors."
+          text="During my time at PXYZ, one of my key responsibilities was building and maintaining the measurement portal. This portal allows both internal and external users to create and manage their AIP campaigns. While working on this product, I contributed to several major initiatives to enhance its functionality, most notably implementing analytics pages that significantly reduced overhead for our campaign managers."
           image="web-resume/measurement-portal"
           imageAlt="aip measuremeant portal"
         />
         <PortfolioItem
           title="Are Media Sites"
           link="https://www.homestolove.com.au/"
-          text="My team and I were responsible for the development and maintenance of our brand's sites. This includes brands like Now to Love, Home to Love & Elle. These sites are built in React and are styled in SASS."
+          text="My team and I were responsible for the development and maintenance of our brand's websites, including well-known brands such as Now to Love, Home to Love, and Elle. These sites are built using React and styled with SASS."
           image="web-resume/now-to-love"
           imageAlt="are media sites"
         />
         <PortfolioItem
           title="This Site"
           link="https://github.com/JacobSturges/react-resume"
-          text="This site was designed and completed by myself in my spare time. It was built in NextJS and hosted using vercel."
+          text="I designed and developed this site independently in my spare time. It was built using Next.js and is hosted on Vercel."
           image="web-resume/web-resume"
           imageAlt="this website"
-        />
-        <PortfolioItem
-          title="Newsconnect 2.0"
-          link="https://www.newsconnect.com.au/"
-          text="This was a major project I worked on as part of a team at Newscorp. The frontend was built in angular and the CMS was built using KeystoneJS. The team both designed and built this site from the ground up."
-          image="web-resume/newsconnect"
-          imageAlt="newsconnect 2.0"
         />
       </div>
     </Section>

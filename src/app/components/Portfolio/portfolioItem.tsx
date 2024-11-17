@@ -24,7 +24,7 @@ export function PortfolioItem({
       href={link}
       className={cn(
         "flex flex-col items-center gap-5",
-        "w-full h-[580px] md:w-[480px] md:h-[480px] p-6",
+        "w-full h-[580px] md:w-[480px] md:h-[540px] p-6",
         "border border-black rounded-lg overflow-hidden group",
       )}
     >
