@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Text } from "../ui/text";
-import { ExperienceItemImage } from "./AExperienceItemImage";
+import { ExperienceItemImage } from "./ExperienceItemImage";
 
 type ExperienceItemProps = {
   name: string;

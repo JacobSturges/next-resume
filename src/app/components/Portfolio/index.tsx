@@ -1,5 +1,5 @@
 import { Section } from "../ui/section";
-import { PortfolioItem } from "./APortfolioItem";
+import { PortfolioItem } from "./PortfolioItem";
 
 export function Portfolio() {
   return (

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Text } from "../ui/text";
 import { cn } from "@/app/helpers/cn";
 import { Heading } from "../ui/heading";
-import { PortfolioItemImage } from "./APortfolioItemImage";
+import { PortfolioItemImage } from "./PortfolioItemImage";
 
 type PortfolioItemProps = {
   title: string;
