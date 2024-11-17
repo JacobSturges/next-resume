@@ -42,7 +42,7 @@ export function Portfolio() {
         />
         <PortfolioItem
           title="This Site"
-          link="https://github.com/JacobSturges/react-resume"
+          link="https://github.com/JacobSturges/next-resume"
           text="I independently designed and developed this website as a personal project during my spare time. Built with Next.js and hosted on Vercel, it showcases my skills in modern web development and design."
           image="web-resume/web-resume"
           imageAlt="this website"
