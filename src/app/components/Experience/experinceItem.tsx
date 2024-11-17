@@ -6,6 +6,7 @@ type ExperienceItemProps = {
   name: string;
   link: string;
   logo: string;
+  logoAlt: string;
   title: string;
   timeline: string;
   description: string;
@@ -15,6 +16,7 @@ export function ExperienceItem({
   name,
   link,
   logo,
+  logoAlt,
   title,
   timeline,
   description,
@@ -22,7 +24,7 @@ export function ExperienceItem({
   return (
     <div className="flex flex-col md:flex-row gap-10 items-center">
       <Link href={link}>
-        <ExperienceItemImage imageUrl={logo} />
+        <ExperienceItemImage imageUrl={logo} alt={logoAlt} />
       </Link>
       <div className="basis-0 grow">
         <Text variant="large">{name}</Text>

@@ -18,5 +18,5 @@ export function ProfileImage() {
     .roundCorners(max())
     .delivery(format(auto()));
 
-  return <AdvancedImage cldImg={img} />;
+  return <AdvancedImage cldImg={img} alt="jacob sturges profile picture" />;
 }

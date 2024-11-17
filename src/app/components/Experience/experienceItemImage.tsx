@@ -6,10 +6,14 @@ import { Resize } from "@cloudinary/url-gen/actions";
 
 type ExperienceItemImageProps = {
   imageUrl: string;
+  alt: string;
 };
 
-export function ExperienceItemImage({ imageUrl }: ExperienceItemImageProps) {
+export function ExperienceItemImage({
+  imageUrl,
+  alt,
+}: ExperienceItemImageProps) {
   const imgae = myCld.image(imageUrl).resize(Resize.scale().width(200));
 
-  return <AdvancedImage cldImg={imgae} />;
+  return <AdvancedImage cldImg={imgae} alt={alt} />;
 }
