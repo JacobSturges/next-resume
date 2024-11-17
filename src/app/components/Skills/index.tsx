@@ -1,5 +1,5 @@
 import { Section } from "../ui/section";
-import { Skill } from "./Skill";
+import { Skill } from "./ASkill";
 
 export function Skills() {
   return (
