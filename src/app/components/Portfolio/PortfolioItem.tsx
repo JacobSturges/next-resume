@@ -23,18 +23,18 @@ export function PortfolioItem({
     <Link
       href={link}
       className={cn(
-        "flex flex-col items-center gap-5",
-        "w-full h-[580px] md:w-[480px] md:h-[540px] p-6",
+        "flex flex-col items-center gap-6",
+        "w-full h-[640px] md:w-[480px] md:h-[580px] p-10",
         "border border-black rounded-lg overflow-hidden group",
       )}
     >
-      <Heading className="group-hover:underline" variant="h4">
+      <div>
+        <PortfolioItemImage imageUrl={image} alt={imageAlt} />
+      </div>
+      <Heading className="text-center group-hover:underline" variant="h4">
         {title}
       </Heading>
       <Text variant="regular">{text}</Text>
-      <div className="mt-auto">
-        <PortfolioItemImage imageUrl={image} alt={imageAlt} />
-      </div>
     </Link>
   );
 }
