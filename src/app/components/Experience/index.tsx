@@ -3,7 +3,7 @@ import { ExperienceItem } from "./ExperinceItem";
 
 export function Experince() {
   return (
-    <Section id="experience" title="Experince">
+    <Section id="experience" title="Experience">
       <div className="flex flex-col gap-16">
         <ExperienceItem
           name="Frank Energie"
