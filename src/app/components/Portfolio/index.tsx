@@ -1,5 +1,6 @@
 import { Section } from "../ui/section";
-import { PortfolioItem } from "./portfolioItem";
+import { PortfolioItem } from "./PortfolioItem";
+
 export function Portfolio() {
   return (
     <Section id="portfolio" title="Portfolio">

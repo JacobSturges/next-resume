@@ -1,7 +1,7 @@
 import { Text } from "../ui/text";
 import { toWords } from "number-to-words";
 import { Section } from "../ui/section";
-import { ProfileImage } from "./profileImage";
+import { ProfileImage } from "./ProfileImage";
 
 export function AboutMe() {
   const workStartDate = new Date(Date.parse("01 Feb 2017"));

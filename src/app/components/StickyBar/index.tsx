@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { cn } from "../../helpers/cn";
-import { SectionLink } from "../Landing/sectionLink";
+import { SectionLink } from "../Landing/SectionLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
