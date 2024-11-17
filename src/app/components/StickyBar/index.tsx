@@ -27,7 +27,11 @@ export function StickyBar() {
           title="jacobsturges.com"
           variant="ultra"
         />
-        <button className="text-white md:hidden" onClick={handleBarsClick}>
+        <button
+          className="text-white md:hidden"
+          onClick={handleBarsClick}
+          aria-label="show section dropdown"
+        >
           <FontAwesomeIcon icon={["fas", "bars"]} size="2x" />
         </button>
       </div>

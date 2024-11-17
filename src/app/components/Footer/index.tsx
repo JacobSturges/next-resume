@@ -26,14 +26,17 @@ export function Footer() {
       </Text>
 
       <div className="flex text-white gap-2">
-        <Link href="https://github.com/JacobSturges">
+        <Link href="https://github.com/JacobSturges" aria-label="my Github">
           <FontAwesomeIcon
             className="h-8 w-8"
             icon={["fab", "github-square"]}
             size="2x"
           />
         </Link>
-        <Link href="https://www.linkedin.com/in/jacob-sturges/">
+        <Link
+          href="https://www.linkedin.com/in/jacob-sturges/"
+          aria-label="my LinkedIn"
+        >
           <FontAwesomeIcon
             className="h-8 w-8"
             icon={["fab", "linkedin"]}
