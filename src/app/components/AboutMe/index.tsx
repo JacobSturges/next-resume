@@ -17,7 +17,7 @@ export function AboutMe() {
         </div>
 
         <Text variant="ultra" className="flex items-center basis-0 grow">
-          I am a Senior Software Engineer originally from Australia but now
+          I am a Senior software engineer originally from Australia but now
           based in Amsterdam, Netherlands. During my {diffWord} years of
           professional experience in software development, I have acquired
           expertise across a diverse array of technologies. My commitment to

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Text } from "../ui/text";
-import { ExperienceItemImage } from "./ExperienceItemImage";
+import { ResizableImage } from "../ResizableImage";
 
 type ExperienceItemProps = {
   name: string;
@@ -24,7 +24,7 @@ export function ExperienceItem({
   return (
     <div className="flex flex-col md:flex-row gap-10 items-center">
       <Link href={link}>
-        <ExperienceItemImage imageUrl={logo} alt={logoAlt} />
+        <ResizableImage imageUrl={logo} alt={logoAlt} width={200} />
       </Link>
       <div className="basis-0 grow">
         <Text variant="large">{name}</Text>

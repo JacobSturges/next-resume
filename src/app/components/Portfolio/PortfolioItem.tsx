@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Text } from "../ui/text";
 import { cn } from "@/app/helpers/cn";
 import { Heading } from "../ui/heading";
-import { PortfolioItemImage } from "./PortfolioItemImage";
+import { ResizableImage } from "../ResizableImage";
 
 type PortfolioItemProps = {
   title: string;
@@ -29,7 +29,7 @@ export function PortfolioItem({
       )}
     >
       <div>
-        <PortfolioItemImage imageUrl={image} alt={imageAlt} />
+        <ResizableImage imageUrl={image} alt={imageAlt} height={180} />
       </div>
       <Heading className="text-center group-hover:underline" variant="h4">
         {title}

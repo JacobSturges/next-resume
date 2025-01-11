@@ -6,6 +6,7 @@ import { StickyBar } from "./components/StickyBar";
 import { Experince } from "./components/Experience";
 import { Portfolio } from "./components/Portfolio";
 import { Footer } from "./components/Footer";
+import { ProfessionalRecommendations } from "./components/ProfessionalRecommendations";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Landing />
       <div className="[&>*:nth-child(even)]:bg-[#eeeeee]">
         <AboutMe />
+        <ProfessionalRecommendations />
         <Skills />
         <Experince />
         <Portfolio />
