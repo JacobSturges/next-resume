@@ -1,4 +1,4 @@
-import { Section } from "../ui/section";
+import { Section } from "../ui/Section";
 import { ExperienceItem } from "./ExperinceItem";
 
 export function Experince() {

@@ -1,4 +1,4 @@
-import { Section } from "../ui/section";
+import { Section } from "../ui/Section";
 import { PortfolioItem } from "./PortfolioItem";
 
 export function Portfolio() {

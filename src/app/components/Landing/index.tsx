@@ -1,5 +1,5 @@
 import { cn } from "@/app/helpers/cn";
-import { Heading } from "../ui/heading";
+import { Heading } from "../ui/Heading";
 
 export function Landing() {
   return (
