@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading } from "./1-Heading";
+import { Heading } from "./Heading";
 
 type SectionProps = {
   id: string;

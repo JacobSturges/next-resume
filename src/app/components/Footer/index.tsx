@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Text } from "../ui/1-Text";
+import { Text } from "../ui/Text";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Heading } from "../ui/1-Heading";
+import { Heading } from "../ui/Heading";
 
 export function Footer() {
   const date = new Date();

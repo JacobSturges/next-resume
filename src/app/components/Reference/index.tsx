@@ -1,6 +1,6 @@
 import { ResizableImage } from "../ResizableImage";
-import { Section } from "../ui/1-Section";
-import { Text } from "../ui/1-Text";
+import { Section } from "../ui/Section";
+import { Text } from "../ui/Text";
 
 export function Reference() {
   return (
