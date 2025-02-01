@@ -1,6 +1,6 @@
 "use client";
 
-import { Section } from "../ui/Section";
+import { Section } from "../ui/1-Section";
 import { PortfolioItem } from "./PortfolioItem";
 import { usePortfolioSlider } from "./hooks/use-portfolio-slider";
 import { Dots } from "./Dots";

@@ -1,6 +1,6 @@
-import { Text } from "../ui/Text";
+import { Text } from "../ui/1-Text";
 import { toWords } from "number-to-words";
-import { Section } from "../ui/Section";
+import { Section } from "../ui/1-Section";
 import { ProfileImage } from "./ProfileImage";
 
 export function AboutMe() {

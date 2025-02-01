@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Text } from "../ui/Text";
+import { Text } from "../ui/1-Text";
 import { cn } from "@/app/helpers/cn";
-import { Heading } from "../ui/Heading";
+import { Heading } from "../ui/1-Heading";
 import { ResizableImage } from "../ResizableImage";
 
 type PortfolioItemProps = {

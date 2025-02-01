@@ -1,7 +1,7 @@
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Heading } from "../ui/Heading";
-import { Text } from "../ui/Text";
+import { Heading } from "../ui/1-Heading";
+import { Text } from "../ui/1-Text";
 import { cn } from "@/app/helpers/cn";
 
 type SkillProps = {

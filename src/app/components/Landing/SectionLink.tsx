@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Text } from "../ui/Text";
+import { Text } from "../ui/1-Text";
 import React from "react";
 
 type SectionLinkProps = {
