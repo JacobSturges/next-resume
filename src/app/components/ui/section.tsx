@@ -9,7 +9,7 @@ type SectionProps = {
 
 export function Section({ id, title, children }: SectionProps) {
   return (
-    <div id={id} className="flex flex-col gap-16 px-4 py-8 md:p-16">
+    <div id={id} className="flex flex-col gap-16 p-8 md:p-16">
       <Heading variant="h2" className="text-center">
         {title}
       </Heading>

@@ -2,19 +2,16 @@ import { ResizableImage } from "../ResizableImage";
 import { Section } from "../ui/section";
 import { Text } from "../ui/text";
 
-export function ProfessionalRecommendations() {
+export function Reference() {
   return (
-    <Section
-      id="professional-recommendations"
-      title="Professional Recommendations"
-    >
-      <div className="flex flex-col md:flex-row gap-10 items-center">
+    <Section id="reference" title="Reference">
+      <div className="flex flex-col md:flex-row gap-10 items-start">
         <ResizableImage
           imageUrl="/web-resume/pxyz"
           alt="PlaygroundXYZ logo"
           width={200}
         />
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <Text className="italic" variant="ultra">
             &quot;Jacob and I collaborated at Playground XYZ on a variety of
             projects and technologies. Each time, I was impressed by his ability
@@ -31,7 +28,7 @@ export function ProfessionalRecommendations() {
               className="underline hover:no-underline"
               href="https://www.linkedin.com/in/yoannbernex/"
             >
-              Yoann Bernex (Head of Engineering Playground XYZ)
+              <b>Yoann Bernex</b> (Head of Engineering Playground XYZ)
             </a>
           </Text>
         </div>

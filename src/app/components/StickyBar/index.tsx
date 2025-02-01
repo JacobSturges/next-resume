@@ -44,6 +44,7 @@ export function StickyBar() {
         onClick={() => setShowMenu(false)}
       >
         <SectionLink href="#about-me" title="about me" />
+        <SectionLink href="#reference" title="reference" />
         <SectionLink href="#skills" title="skills" />
         <SectionLink href="#experience" title="experience" />
         <SectionLink href="#portfolio" title="portfolio" />
