@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <StickyBar />
       <Landing />
-      <div className="[&>*:nth-child(even)]:bg-[#eeeeee]">
+      <div className="[&>*:nth-child(even)]:bg-light-grey">
         <AboutMe />
         <Reference />
         <Skills />

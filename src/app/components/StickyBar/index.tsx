@@ -15,7 +15,7 @@ export function StickyBar() {
     <div
       id="sticky-bar"
       className={cn(
-        "flex flex-col justify-between fixed top-0 w-full",
+        "flex flex-col justify-between fixed top-0 w-full z-[1]",
         "md:flex-row",
         "px-4 md:px-20 py-4",
         "bg-black",
