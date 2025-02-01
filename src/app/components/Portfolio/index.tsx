@@ -22,7 +22,7 @@ export function Portfolio() {
             <PortfolioItem
               title="Frank Energie main site"
               link="https://www.frankenergie.nl/nl"
-              text="The main customer web page for Frank Energie serves as a clean and efficient source of information for users while hosting the primary sign-up flow. During my time at Frank, I have worked diligently to maintain the website's code at a high standard of quality. Additionally, I have expanded its functionality, notably leading a major rework of the sign-up flow and contributing significantly to preparing the site for its launch in Spain. The website is built using Next.js for the frontend and GraphQL for the backend."
+              text="The main customer web page for Frank Energie. During my time at Frank, I have worked diligently to maintain the website's code at a high standard of quality. Additionally, I have expanded its functionality, notably leading a major rework of the sign-up flow and contributing significantly to preparing the site for its launch in Spain. The website is built using Next.js for the frontend and GraphQL for the backend."
               image="web-resume/frank-web"
               imageAlt="screenshot of frank website"
             />
