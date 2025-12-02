@@ -1,7 +1,8 @@
 "use client";
+
 import { useState } from "react";
 import { cn } from "../../helpers/cn";
-import { SectionLink } from "../Landing/SectionLink";
+import { SectionLink } from "./SectionLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -43,12 +44,36 @@ export function StickyBar() {
         )}
         onClick={() => setShowMenu(false)}
       >
-        <SectionLink href="#about-me" title="about me" />
-        <SectionLink href="#reference" title="reference" />
-        <SectionLink href="#skills" title="skills" />
-        <SectionLink href="#experience" title="experience" />
-        <SectionLink href="#portfolio" title="portfolio" />
-        <SectionLink href="#contact" title="contact" />{" "}
+        <SectionLink
+          className="w-full md:w-fit"
+          href="#about-me"
+          title="about me"
+        />
+        <SectionLink
+          className="w-full md:w-fit"
+          href="#reference"
+          title="reference"
+        />
+        <SectionLink
+          className="w-full md:w-fit"
+          href="#skills"
+          title="skills"
+        />
+        <SectionLink
+          className="w-full md:w-fit"
+          href="#experience"
+          title="experience"
+        />
+        <SectionLink
+          className="w-full md:w-fit"
+          href="#portfolio"
+          title="portfolio"
+        />
+        <SectionLink
+          className="w-full md:w-fit"
+          href="#contact"
+          title="contact"
+        />
       </div>
     </div>
   );
