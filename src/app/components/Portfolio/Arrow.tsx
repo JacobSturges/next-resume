@@ -1,6 +1,6 @@
-import { cn } from "@/app/helpers/cn";
+import { cn } from "@/app/helpers/cn"
 
-type ArrowProps = { left?: boolean; onClick: () => void; className?: string };
+type ArrowProps = { left?: boolean; onClick: () => void; className?: string }
 
 export function Arrow({ left, onClick, className }: ArrowProps) {
   return (
@@ -15,5 +15,5 @@ export function Arrow({ left, onClick, className }: ArrowProps) {
       )}
       {!left && <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />}
     </svg>
-  );
+  )
 }

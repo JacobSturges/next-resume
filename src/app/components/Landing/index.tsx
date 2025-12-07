@@ -1,5 +1,5 @@
-import { cn } from "@/app/helpers/cn";
-import { Heading } from "../ui/Heading";
+import { cn } from "@/app/helpers/cn"
+import { Heading } from "../ui/Heading"
 
 export function Landing() {
   return (
@@ -17,5 +17,5 @@ export function Landing() {
         Senior software engineer
       </Heading>
     </div>
-  );
+  )
 }

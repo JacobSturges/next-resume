@@ -1,14 +1,14 @@
-import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Heading } from "../ui/Heading";
-import { Text } from "../ui/Text";
-import { cn } from "@/app/helpers/cn";
+import { IconProp } from "@fortawesome/fontawesome-svg-core"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Heading } from "../ui/Heading"
+import { Text } from "../ui/Text"
+import { cn } from "@/app/helpers/cn"
 
 type SkillProps = {
-  name: string;
-  text: string;
-  icon: IconProp;
-};
+  name: string
+  text: string
+  icon: IconProp
+}
 
 export function Skill({ name, text, icon }: SkillProps) {
   return (
@@ -25,5 +25,5 @@ export function Skill({ name, text, icon }: SkillProps) {
         {text}
       </Text>
     </div>
-  );
+  )
 }

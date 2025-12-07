@@ -1,9 +1,9 @@
-import { useKeenSlider } from "keen-slider/react";
-import { useState } from "react";
+import { useKeenSlider } from "keen-slider/react"
+import { useState } from "react"
 
 export function usePortfolioSlider() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [loaded, setLoaded] = useState(false);
+  const [currentSlide, setCurrentSlide] = useState(0)
+  const [loaded, setLoaded] = useState(false)
 
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     initial: 0,
@@ -25,14 +25,14 @@ export function usePortfolioSlider() {
       spacing: 30,
     },
     slideChanged: (slider) => {
-      setCurrentSlide(slider.track.details.rel);
+      setCurrentSlide(slider.track.details.rel)
     },
     created: () => {
-      setLoaded(true);
+      setLoaded(true)
     },
-  });
+  })
 
-  const slideCount = instanceRef.current?.track.details.slides.length ?? 0;
+  const slideCount = instanceRef.current?.track.details.slides.length ?? 0
 
   return {
     sliderRef,
@@ -41,13 +41,13 @@ export function usePortfolioSlider() {
     slideCount,
     slideLeft,
     slideRight,
-  };
+  }
 
   function slideLeft() {
-    instanceRef.current?.prev();
+    instanceRef.current?.prev()
   }
 
   function slideRight() {
-    instanceRef.current?.next();
+    instanceRef.current?.next()
   }
 }

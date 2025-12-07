@@ -1,9 +1,9 @@
-import { cn } from "@/app/helpers/cn";
-import React, { HTMLAttributes } from "react";
+import { cn } from "@/app/helpers/cn"
+import React, { HTMLAttributes } from "react"
 
 export type TextProps = HTMLAttributes<HTMLElement> & {
-  variant: "mega" | "ultra" | "large" | "regular" | "small" | "micro";
-};
+  variant: "mega" | "ultra" | "large" | "regular" | "small" | "micro"
+}
 
 export function Text({ variant, className, ...rest }: TextProps) {
   return (
@@ -23,5 +23,5 @@ export function Text({ variant, className, ...rest }: TextProps) {
       )}
       {...rest}
     />
-  );
+  )
 }

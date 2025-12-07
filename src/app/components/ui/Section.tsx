@@ -1,12 +1,12 @@
-import React from "react";
-import { Heading } from "./Heading";
+import React from "react"
+import { Heading } from "./Heading"
 
 type SectionProps = {
-  id: string;
-  title: string;
-  children?: React.ReactNode;
-  className?: string;
-};
+  id: string
+  title: string
+  children?: React.ReactNode
+  className?: string
+}
 
 export function Section({ id, title, children, className }: SectionProps) {
   return (
@@ -16,5 +16,5 @@ export function Section({ id, title, children, className }: SectionProps) {
       </Heading>
       <div className={className}>{children}</div>
     </div>
-  );
+  )
 }

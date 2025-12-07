@@ -1,13 +1,13 @@
-import { Text } from "../ui/Text";
-import { toWords } from "number-to-words";
-import { Section } from "../ui/Section";
-import { ProfileImage } from "./ProfileImage";
+import { Text } from "../ui/Text"
+import { toWords } from "number-to-words"
+import { Section } from "../ui/Section"
+import { ProfileImage } from "./ProfileImage"
 
 export function AboutMe() {
-  const workStartDate = new Date(Date.parse("01 Feb 2017"));
-  const today = new Date();
-  const diff = today.getFullYear() - workStartDate.getFullYear();
-  const diffWord = toWords(diff);
+  const workStartDate = new Date(Date.parse("01 Feb 2017"))
+  const today = new Date()
+  const diff = today.getFullYear() - workStartDate.getFullYear()
+  const diffWord = toWords(diff)
 
   return (
     <Section id="about-me" title="About me">
@@ -28,5 +28,5 @@ export function AboutMe() {
         </Text>
       </div>
     </Section>
-  );
+  )
 }

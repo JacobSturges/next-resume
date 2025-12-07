@@ -1,17 +1,17 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import { cn } from "../../helpers/cn";
-import { SectionLink } from "./SectionLink";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fas } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react"
+import { cn } from "../../helpers/cn"
+import { SectionLink } from "./SectionLink"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { fas } from "@fortawesome/free-solid-svg-icons"
 
-library.add(fas);
+library.add(fas)
 export function StickyBar() {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false)
 
-  const menuMobileDisplay = showMenu ? "flex" : "hidden";
+  const menuMobileDisplay = showMenu ? "flex" : "hidden"
   return (
     <div
       id="sticky-bar"
@@ -76,9 +76,9 @@ export function StickyBar() {
         />
       </div>
     </div>
-  );
+  )
 
   function handleBarsClick() {
-    setShowMenu((showMenu) => !showMenu);
+    setShowMenu((showMenu) => !showMenu)
   }
 }

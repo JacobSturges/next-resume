@@ -1,16 +1,16 @@
-import Link from "next/link";
-import { Text } from "../ui/Text";
-import { ResizableImage } from "../ResizableImage";
+import Link from "next/link"
+import { Text } from "../ui/Text"
+import { ResizableImage } from "../ResizableImage"
 
 type ExperienceItemProps = {
-  name: string;
-  link: string;
-  logo: string;
-  logoAlt: string;
-  title: string;
-  timeline: string;
-  description: string;
-};
+  name: string
+  link: string
+  logo: string
+  logoAlt: string
+  title: string
+  timeline: string
+  description: string
+}
 
 export function ExperienceItem({
   name,
@@ -35,5 +35,5 @@ export function ExperienceItem({
         <Text variant="regular">{description}</Text>
       </div>
     </div>
-  );
+  )
 }

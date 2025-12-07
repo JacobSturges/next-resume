@@ -1,17 +1,17 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-import { Text } from "../ui/Text";
-import React, { useMemo } from "react";
-import { cn } from "@/app/helpers/cn";
-import { useSectionInView } from "./hooks/use-section-in-view";
+import Link from "next/link"
+import { Text } from "../ui/Text"
+import React, { useMemo } from "react"
+import { cn } from "@/app/helpers/cn"
+import { useSectionInView } from "./hooks/use-section-in-view"
 
 type SectionLinkProps = {
-  title: string;
-  href: string;
-  variant?: "regular" | "ultra";
-  className?: string;
-};
+  title: string
+  href: string
+  variant?: "regular" | "ultra"
+  className?: string
+}
 
 export function SectionLink({
   title,
@@ -20,11 +20,11 @@ export function SectionLink({
   className,
 }: SectionLinkProps) {
   const sectionId = useMemo(() => {
-    if (!href.startsWith("#")) return null;
-    return href.replace(/^#/, "");
-  }, [href]);
+    if (!href.startsWith("#")) return null
+    return href.replace(/^#/, "")
+  }, [href])
 
-  const isSectionActive = useSectionInView(sectionId);
+  const isSectionActive = useSectionInView(sectionId)
 
   return (
     <Link
@@ -46,31 +46,31 @@ export function SectionLink({
         {title}
       </Text>
     </Link>
-  );
+  )
 
   function handleClick(event: React.MouseEvent<HTMLAnchorElement>) {
-    const target = event.currentTarget;
-    const { hash } = target;
+    const target = event.currentTarget
+    const { hash } = target
 
     if (!hash) {
-      return;
+      return
     }
     // Only cancel default behavior if href is referencing local tag ie #something
-    event.preventDefault();
+    event.preventDefault()
 
-    const id = hash.replace(/^#/, "");
-    const element = document.getElementById(id);
+    const id = hash.replace(/^#/, "")
+    const element = document.getElementById(id)
 
     if (!element) {
-      return;
+      return
     }
 
-    const stickyBar = document.getElementById("sticky-bar");
-    const stickyBarHeight = stickyBar ? stickyBar.offsetHeight : 0;
+    const stickyBar = document.getElementById("sticky-bar")
+    const stickyBarHeight = stickyBar ? stickyBar.offsetHeight : 0
 
     const y =
-      element.getBoundingClientRect().top + window.scrollY - stickyBarHeight;
+      element.getBoundingClientRect().top + window.scrollY - stickyBarHeight
 
-    window.scrollTo({ top: y, behavior: "smooth" });
+    window.scrollTo({ top: y, behavior: "smooth" })
   }
 }

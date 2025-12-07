@@ -1,17 +1,17 @@
-"use client";
+"use client"
 
-import { Section } from "../ui/Section";
-import { PortfolioItem } from "./PortfolioItem";
-import { usePortfolioSlider } from "./hooks/use-portfolio-slider";
-import { Dots } from "./Dots";
-import { Arrow } from "./Arrow";
+import { Section } from "../ui/Section"
+import { PortfolioItem } from "./PortfolioItem"
+import { usePortfolioSlider } from "./hooks/use-portfolio-slider"
+import { Dots } from "./Dots"
+import { Arrow } from "./Arrow"
 
-const slideClassName = "keen-slider__slide";
-const arrowClassName = "hidden md:block";
+const slideClassName = "keen-slider__slide"
+const arrowClassName = "hidden md:block"
 
 export function Portfolio() {
   const { sliderRef, slideLeft, slideRight, currentSlide, slideCount } =
-    usePortfolioSlider();
+    usePortfolioSlider()
 
   return (
     <Section id="portfolio" title="Portfolio" className="flex flex-col gap-4">
@@ -81,5 +81,5 @@ export function Portfolio() {
         slideCount={slideCount}
       />
     </Section>
-  );
+  )
 }

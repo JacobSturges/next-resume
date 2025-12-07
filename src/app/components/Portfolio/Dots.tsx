@@ -1,12 +1,12 @@
-import { cn } from "@/app/helpers/cn";
+import { cn } from "@/app/helpers/cn"
 
-const dotClassName = "rounded-full borer-none w-3 h-3 bg-medium-light-grey";
+const dotClassName = "rounded-full borer-none w-3 h-3 bg-medium-light-grey"
 
 type DotsProps = {
-  className?: string;
-  currentSlide: number;
-  slideCount: number;
-};
+  className?: string
+  currentSlide: number
+  slideCount: number
+}
 
 export function Dots({ className, currentSlide, slideCount }: DotsProps) {
   return (
@@ -18,5 +18,5 @@ export function Dots({ className, currentSlide, slideCount }: DotsProps) {
         />
       ))}
     </div>
-  );
+  )
 }

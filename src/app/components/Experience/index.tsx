@@ -1,5 +1,5 @@
-import { Section } from "../ui/Section";
-import { ExperienceItem } from "./ExperinceItem";
+import { Section } from "../ui/Section"
+import { ExperienceItem } from "./ExperinceItem"
 
 export function Experince() {
   return (
@@ -52,5 +52,5 @@ export function Experince() {
         />
       </div>
     </Section>
-  );
+  )
 }

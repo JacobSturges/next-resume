@@ -1,16 +1,16 @@
-import Link from "next/link";
-import { Text } from "../ui/Text";
-import { cn } from "@/app/helpers/cn";
-import { Heading } from "../ui/Heading";
-import { ResizableImage } from "../ResizableImage";
+import Link from "next/link"
+import { Text } from "../ui/Text"
+import { cn } from "@/app/helpers/cn"
+import { Heading } from "../ui/Heading"
+import { ResizableImage } from "../ResizableImage"
 
 type PortfolioItemProps = {
-  title: string;
-  text: string;
-  image: string;
-  imageAlt: string;
-  link: string;
-};
+  title: string
+  text: string
+  image: string
+  imageAlt: string
+  link: string
+}
 
 export function PortfolioItem({
   title,
@@ -36,5 +36,5 @@ export function PortfolioItem({
       </Heading>
       <Text variant="regular">{text}</Text>
     </Link>
-  );
+  )
 }

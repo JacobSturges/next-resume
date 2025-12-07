@@ -1,10 +1,10 @@
-import { cn } from "@/app/helpers/cn";
-import { FC, HTMLAttributes } from "react";
+import { cn } from "@/app/helpers/cn"
+import { FC, HTMLAttributes } from "react"
 
 type HeadingProps = HTMLAttributes<HTMLElement> & {
-  variant: "xxxl" | "xxl" | "xl" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
-  as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div" | "span";
-};
+  variant: "xxxl" | "xxl" | "xl" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6"
+  as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div" | "span"
+}
 
 export const Heading: FC<HeadingProps> = ({
   as = "div",
@@ -12,7 +12,7 @@ export const Heading: FC<HeadingProps> = ({
   className,
   ...rest
 }) => {
-  const Comp = as;
+  const Comp = as
   return (
     <Comp
       data-variant={variant}
@@ -31,5 +31,5 @@ export const Heading: FC<HeadingProps> = ({
       )}
       {...rest}
     />
-  );
-};
+  )
+}

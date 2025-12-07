@@ -1,11 +1,11 @@
-import Link from "next/link";
-import { Text } from "../ui/Text";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Heading } from "../ui/Heading";
+import Link from "next/link"
+import { Text } from "../ui/Text"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Heading } from "../ui/Heading"
 
 export function Footer() {
-  const date = new Date();
-  const year = date.getFullYear();
+  const date = new Date()
+  const year = date.getFullYear()
   return (
     <div
       id="contact"
@@ -49,5 +49,5 @@ export function Footer() {
         © {year} Jacob Sturges. All rights reserved.
       </Text>
     </div>
-  );
+  )
 }
